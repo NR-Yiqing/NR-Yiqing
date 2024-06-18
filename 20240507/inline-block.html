@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline-block</title>
+</head>
+<style>
+    body,ul{
+    margin: 0px;
+}
+header{
+    height: 200px;
+    background-color: rgb(28, 52, 71);
+}
+nav{
+    height: 100px;
+    background-color: rgb(255, 136, 249);
+}
+main{
+    height: 1000px;
+    background-color: rgb(179, 255, 163);
+}
+aside{
+    width: 20%;
+    background-color: rgb(47, 141, 175);
+    min-height: 1000px;
+    float: left;
+}
+section{
+    width: 80%;
+    background-color: rgb(186, 186, 35);
+    min-height: 1000px;
+    float: left;
+}
+footer{
+    height: 100px;
+    background-color: rgb(255, 60, 60);
+    clear: both;
+}
+.menu {
+    list-style-type: none;
+}
+.menu-item{
+    display: inline-block;
+    width: 100px;
+    background-color: rgb(255, 219, 193);
+    text-align: center;
+}
+.menu-item a{
+    text-decoration: none;
+    width: 100px;
+    background-color: rgb(223, 187, 160);
+    text-align: center;
+}
+.menu-item a:hover{
+    color: rgb(203, 203, 255);
+}
+</style>
+
+<body>
+    <header></header>
+    <nav>
+        <ul class="menu">
+            <li class="menu-item"><a href="#">超連結</a></li>
+            <li class="menu-item"><a href="#">超連結</a></li>
+            <li class="menu-item"><a href="#">超連結</a></li>
+            <li class="menu-item"><a href="#">超連結</a></li>
+            <li class="menu-item"><a href="#">超連結</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+    </main>
+    
+    <footer></footer>
+</body>
+</html>
