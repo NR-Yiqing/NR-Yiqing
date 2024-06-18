@@ -1,0 +1,71 @@
+#aside {
+    height: 1500px;
+    width: 23%;
+    background-color: rgb(255, 126, 195);
+    float: left;
+}
+#section {
+    height: 1500px;
+    width: 75%;
+    background-color: rgb(149, 255, 213);
+    float: right;
+}
+#h{
+    text-align: center;
+    background-color: rgb(38, 109, 97);
+}
+#h1 {
+    text-align:center;
+}
+#w{
+    text-align: center;
+}
+#revale{
+    text-align: center;
+}
+
+/*選單*/
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    background-color: rgb(162, 199, 184);
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+}
+.menu a{
+    display: inline-block;
+    width: 110px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu a:hover{
+    background:rgb(255, 126, 195);;
+    color: #dcc99f;
+}
+.omg li{
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    background-color: rgb(255, 126, 195);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.omg a{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+}
+.omg a:hover{
+    background:rgb(149, 255, 213);;
+    color: #dcc99f;
+    margin: 10px;
+}

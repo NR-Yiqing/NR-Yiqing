@@ -1,0 +1,49 @@
+#aside {
+    height: 900px;
+    width: 23%;
+    background-color: rgb(255, 126, 195);
+    float: left;
+}
+#section {
+    height: 900px;
+    width: 75%;
+    background-color: rgb(149, 255, 213);
+    float: right;
+}
+#h1 {
+    text-align:center;
+}
+#w{
+    text-align: center;
+}
+#revale{
+    text-align: center;
+}
+/*選單*/
+.omg li{
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    background-color: rgb(255, 126, 195);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.omg a{
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+}
+.omg a:hover{
+    background:rgb(149, 255, 213);;
+    color: #dcc99f;
+    margin: 10px;
+}
+/* 
+    <img src="png/螢幕擷取畫面 2024-06-04 135408.png" alt="" width="250" height="180" >
+    <img src="png/螢幕擷取畫面 2024-06-04 140227.png" alt="" width="250" height="180" >
+*/
